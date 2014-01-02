@@ -6,7 +6,7 @@ using System.Collections.Generic;
 [CustomEditor(typeof(ShadowMakerHelper))]
 public class ShadowMaker : Editor {
 
-    [MenuItem("PlanetCute/Remove Shadows %&m")]
+    [MenuItem("PlanetCute/Remove Shadows %&r")]
     public static void RemoveShadows() {
         // remove all existing shadows
         foreach(GameObject obj in GameObject.FindGameObjectsWithTag("Shadow")) {
